@@ -1,4 +1,4 @@
-package rwExcel;
+package rwTables;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -15,7 +15,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ExcelManipulator {
 	
-	public void Teste () throws IOException {
+	public void rwXLSX () throws IOException {
 		FileInputStream fileIn = new FileInputStream("src/tabela.xlsx");
 		XSSFWorkbook wb = new XSSFWorkbook(fileIn);
 		XSSFSheet sheet = wb.getSheetAt(0);
